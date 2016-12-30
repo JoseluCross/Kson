@@ -91,6 +91,8 @@ public class Kson{
 			b.write(key+":"+map.get(key));
 			b.newLine();
 		}
+		b.close();
+		fw.close();
 	}
 
 }

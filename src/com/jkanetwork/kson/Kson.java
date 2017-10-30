@@ -89,7 +89,8 @@ public class Kson{
 		while(it.hasNext()){
 			String key = it.next();
 			b.write(key+":"+map.get(key));
-			b.newLine();
+			if(it.hasNext())
+				b.newLine();
 		}
 		b.close();
 		fw.close();

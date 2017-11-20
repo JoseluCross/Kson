@@ -2,10 +2,10 @@
 *(Key System Object Notation)*
 A format to save HashMaps inspired on JSON.
 
-##Grammar
-*file*: *line*+
+## Grammar
 
-*line*: **id**:**id** 
+* *file*: *line*+
+* *line*: **id**:**id** 
 
 ### Example
 KPR:Kevin Puertas Ruiz
